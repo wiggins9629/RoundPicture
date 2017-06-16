@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <!-- 显示类型 -->
+        <attr name="imageType" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <!-- 边框大小 -->
+        <attr name="borderWidth" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="borderColor" format="color" />
+        <!-- 圆角大小 -->
+        <attr name="roundRadius" format="dimension" />
+        <!-- 按下状态蒙层颜色 -->
+        <attr name="coverColor" format="color" />
+        <!-- 是否可被按下 -->
+        <attr name="isPressed" format="boolean" />
+    </declare-styleable>
+</resources>

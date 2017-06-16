@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wiggins.roundpicture.widget.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.wiggins.roundpicture.widget.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pic_one" />
+
+        <com.wiggins.roundpicture.widget.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:src="@drawable/pic_three"
+            app:borderColor="@color/red"
+            app:borderWidth="1.5dp"
+            app:imageType="circle" />
+
+        <com.wiggins.roundpicture.widget.RoundImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pic_two"
+            app:borderColor="@color/colorAccent"
+            app:borderWidth="1.5dp"
+            app:imageType="round" />
+    </LinearLayout>
+</LinearLayout>
